@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="@dimen/_5sdp"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image_event"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/hellboy" />
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               >
+
+            <TextView
+                android:id="@+id/tv_event_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2019"
+                android:textColor="@color/colorDarkGray"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                />
+            <TextView
+                android:id="@+id/tv_event_char"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="wayne Gale"
+               android:layout_alignParentRight="true"
+                android:gravity="right"
+                android:layout_toRightOf="@+id/tv_event_year"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:textColor="@color/colorDarkGray"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_picture_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HellBoy"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textColor="@color/colorBlack"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_actor_info"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=   "A material metaphor is the unifying theory of a rationalized space and a system of motion ,The material is grounded in tactile reality "
+                android:textColor="@color/colorBlack"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@color/colorGray"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_actor_info1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:text="Facts"
+                    android:textSize="@dimen/_15sdp" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_actor_info2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:text="Born"
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_actor_info3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_actor_info2"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="April 04,1965" />
+
+                    <TextView
+                        android:id="@+id/tv_actor_info4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:layout_marginRight="@dimen/_35sdp"
+                        android:text="Gender"
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_actor_info5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_actor_info4"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_40sdp"
+                        android:text="54" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_actor_info6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:text="Birthplace"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_actor_info7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Manhattan, New York " />
+
+                <TextView
+                    android:id="@+id/tv_actor_info8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:text="Homepage"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_actor_info9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:textColor="@color/colorIndicator"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="http://www.marvel.com/movies/avengers-endgame" />
+
+
+                <TextView
+                    android:id="@+id/tv_actor_info10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:text="Also Known For"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_actor_info11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Marvel Studio" />
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="Images"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="@dimen/_15sdp" />
+            <ImageView
+                android:id="@+id/image_actor_info"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_17sdp"
+                android:src="@drawable/hellboy" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

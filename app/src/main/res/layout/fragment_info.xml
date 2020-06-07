@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_weight=".2"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/starfilled"/>
+        <ImageView
+            android:layout_weight=".2"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/tmdb"/>
+        <ImageView
+            android:layout_weight=".2"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/imdb"/>
+        <ImageView
+            android:layout_weight=".2"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/rottantamato1"/>
+        <ImageView
+            android:layout_weight=".2"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/rottantamato"/>
+
+
+    </LinearLayout>
+            <View
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_2sdp"
+                android:background="@color/colorGray"
+                />
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=   "A material metaphor is the unifying theory of a rationalized space and a system of motion ,The material is grounded in tactile reality "
+        android:textColor="@color/colorBlack"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/colorGray"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_info1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:text="Facts"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:id="@+id/tv_info2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="original Title"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_info3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Avengers: Endgame" />
+
+            <TextView
+                android:id="@+id/tv_info4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="original Language"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_info5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="English" />
+
+            <TextView
+                android:id="@+id/tv_info6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="Homepage"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_info7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:textColor="@color/colorIndicator"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="http://www.marvel.com/movies/avengers-endgame" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_info8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:text="Budget"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_info9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_info8"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="$500000000" />
+
+                <TextView
+                    android:id="@+id/tv_info10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_35sdp"
+                    android:text="Revenue"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_info11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_info10"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:text="$1481099795" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_info12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="Production Companies"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_info13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Marvel Studio" />
+
+
+        </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="Similar Movies"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="@dimen/_15sdp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyView_info"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+    </android.support.v7.widget.RecyclerView>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyView1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+    </android.support.v7.widget.RecyclerView>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyView2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+    </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    </LinearLayout>
