@@ -2,7 +2,7 @@
 
 ***You can Install the Sample app by clicking below 👇***
 
-[![MovieWala App](https://img.shields.io/badge/MovieWala-APK-orange)](https://github.com/DeepakChhipa1999/MovieWala/blob/master/Screenshots/apk/debug/app-debug.apk)
+[![MovieWala App](https://img.shields.io/badge/MovieWala-APK-orange)](https://github.com/DeepakChhipa1999/MovieWala/blob/master/Screenshots/apk/debug/app-debug.apk?raw=true)
 
 
 ## About
