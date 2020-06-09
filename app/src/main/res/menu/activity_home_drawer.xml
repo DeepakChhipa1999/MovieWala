@@ -12,10 +12,10 @@
             android:id="@+id/tv_shows"
             android:icon="@mipmap/tvshows"
             android:title="Tv Shows" />
-        <item
+    <!--    <item
             android:id="@+id/discover"
             android:icon="@mipmap/discover"
-            android:title="Discover" />
+            android:title="Discover" />-->
 
     </group>
     <group android:id="@+id/group_menu">

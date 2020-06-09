@@ -88,9 +88,9 @@ public class TvShowsActivity extends AppCompatActivity {
                     startActivity(new Intent(TvShowsActivity.this, MainActivity.class));
                 } else if (id == R.id.tv_shows) {
                     startActivity(new Intent(TvShowsActivity.this, TvShowsActivity.class));
-                } else if (id == R.id.discover) {
+                } /*else if (id == R.id.discover) {
                     startActivity(new Intent(TvShowsActivity.this, DiscoverActivity.class));
-                } else if (id == R.id.popular) {
+                }*/ else if (id == R.id.popular) {
                     startActivity(new Intent(TvShowsActivity.this, PopularPeopleActivity.class));
 
                 } else if (id == R.id.setting) {

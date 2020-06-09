@@ -96,9 +96,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, MainActivity.class));
             } else if (id == R.id.tv_shows) {
                 startActivity(new Intent(MainActivity.this, TvShowsActivity.class));
-            } else if (id == R.id.discover) {
+            }/* else if (id == R.id.discover) {
                 startActivity(new Intent(MainActivity.this, DiscoverActivity.class));
-            } else if (id == R.id.popular) {
+            }*/ else if (id == R.id.popular) {
                 startActivity(new Intent(MainActivity.this, PopularPeopleActivity.class));
 
             } else if (id == R.id.setting) {
