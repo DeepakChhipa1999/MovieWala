@@ -2,7 +2,7 @@
 
 ***You can Install the Sample app by clicking below 👇***
 
-[![COOK.it App](https://img.shields.io/badge/COOK.it-APK-orange)](https://github.com/chintanrparmar/COOK.it/raw/master/sample-app.apk)
+[![COOK.it App](https://img.shields.io/badge/COOK.it-APK-orange)](https://github.com/DeepakChhipa1999/MovieWala/blob/master/Screenshots/apk/debug/app-debug.apk)
 
 
 ## About
