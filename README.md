@@ -13,22 +13,22 @@ MovieWala is an Android Application which will provide you the Infromation about
 
 [<img src="screenshots/screenshot1.png" align="left"
 width="250"
-    hspace="10" vspace="10">](screenshots/screenshot1.png)
+    hspace="10" vspace="10">](Screenshots/Screenshot1.png)
 [<img src="screenshots/screenshot2.png" align="center"
 width="250"
-    hspace="10" vspace="10">](screenshots/screenshot2.png)
+    hspace="10" vspace="10">](Screenshots/Screenshot2.png)
 [<img src="screenshots/screenshot3.png" align="center"
 width="250"
-    hspace="10" vspace="10">](screenshots/screenshot3.png)
+    hspace="10" vspace="10">](Screenshots/Screenshot3.png)
 [<img src="screenshots/screenshot4.png" align="center"
 width="250"
-    hspace="10" vspace="20">](screenshots/screenshot4.png)
+    hspace="10" vspace="20">](Screenshots/Screenshot4.png)
     [<img src="screenshots/screenshot4.png" align="center"
 width="250"
-    hspace="10" vspace="20">](screenshots/screenshot5.png)
+    hspace="10" vspace="20">](Screenshots/Screenshot5.png)
     [<img src="screenshots/screenshot4.png" align="center"
 width="250"
-    hspace="10" vspace="20">](screenshots/screenshot6.png)
+    hspace="10" vspace="20">](Screenshots/Screenshot6.png)
 
 
 ## How to use it?
