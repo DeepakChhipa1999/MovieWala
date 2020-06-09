@@ -1,30 +1,52 @@
-# COOK.it
+# Moviewala
 
 ***You can Install the Sample app by clicking below 👇***
 
-[![COOK.it App](https://img.shields.io/badge/COOK.it-APK-orange)](https://github.com/DeepakChhipa1999/MovieWala/blob/master/Screenshots/apk/debug/app-debug.apk)
+[![MovieWala App](https://img.shields.io/badge/MovieWala-APK-orange)](https://github.com/DeepakChhipa1999/MovieWala/blob/master/Screenshots/apk/debug/app-debug.apk)
 
 
 ## About
 
-A Recipe app that will let you cook delicious food in simple steps.
+MovieWala is an Android Application which will provide you the Infromation about the Latest Movies, TV Shows and much more. You can check the movie review , starcast, movie revenue, and starcast other movies or tv shows. There is a special thanks to [TMDB](https://www.themoviedb.org/?language=en-USg) for provide us the open source api.
 
-## Built With
+## Screenshots
 
--   [Kotlin](https://kotlinlang.org/)  - First class and official programming language for Android development.
--   [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html)  - For asynchronous and more..
-that sequentially emits values and completes normally or with an exception.
--   [Android Architecture Components](https://developer.android.com/topic/libraries/architecture)  - Collection of libraries that help you design robust, testable, and maintainable apps.
-    -   [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)  - Data objects that notify views when the underlying database changes.
-    -   [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)  - Stores UI-related data that isn't destroyed on UI changes.
-    -   [ViewBinding](https://developer.android.com/topic/libraries/view-binding)  - Generates a binding class for each XML layout file present in that module and allows you to more easily write code that interacts with views.
--   [Retrofit](https://square.github.io/retrofit/)  - A type-safe HTTP client for Android and Java.
--   [Gson](https://github.com/google/gson)  - A JSON library for Kotlin and Java.
--    [Coil-kt](https://coil-kt.github.io/coil/)  - An image loading library for Android backed by Kotlin Coroutines.
--    [Motion Layout](https://developer.android.com/training/constraint-layout/motionlayout)  - A layout type that helps you manage motion and widget animation in your app.
--   [Material Components for Android](https://github.com/material-components/material-components-android)  - Modular and customizable Material Design UI components for Android.## Switch to another file
+[<img src="screenshots/screenshot1.png" align="left"
+width="250"
+    hspace="10" vspace="10">](screenshots/screenshot1.png)
+[<img src="screenshots/screenshot2.png" align="center"
+width="250"
+    hspace="10" vspace="10">](screenshots/screenshot2.png)
+[<img src="screenshots/screenshot3.png" align="center"
+width="250"
+    hspace="10" vspace="10">](screenshots/screenshot3.png)
+[<img src="screenshots/screenshot4.png" align="center"
+width="250"
+    hspace="10" vspace="20">](screenshots/screenshot4.png)
+    [<img src="screenshots/screenshot4.png" align="center"
+width="250"
+    hspace="10" vspace="20">](screenshots/screenshot5.png)
+    [<img src="screenshots/screenshot4.png" align="center"
+width="250"
+    hspace="10" vspace="20">](screenshots/screenshot6.png)
 
 
-## Contact
-If you need any help, feel free to connect.
-[Dev Profile](https://dev.to/chintan)
+## How to use it?
+Clone this repository and import into **Android Studio**
+```bash
+git clone https://github.com/DeepakChhipa1999/MovieWala.git
+```
+
+## Permissions
+The App requires the following permissions:
+- Internet access.
+
+##Tech Specification
+- [OK Http](https://square.github.io/okhttp/)
+- [Gson](https://github.com/google/gson)
+- [Glide](https://github.com/bumptech/glide)
+- [Circular Image View](https://github.com/hdodenhof/CircleImageView)
+- [RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)
+- [Material Design](https://material.io/develop/android/components/)
+
+
